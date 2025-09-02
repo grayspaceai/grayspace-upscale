@@ -1,0 +1,6 @@
+fastapi==0.110.*
+uvicorn[standard]==0.29.*
+pillow>=9.5
+numpy>=1.24
+realesrgan==0.3.0
+# torch/torchvision은 배포 환경 CUDA에 맞춰 Dockerfile에서 설치
